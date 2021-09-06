@@ -1,29 +1,22 @@
-# book-search-engineGIVEN a book search engine
-WHEN I load the search engine
-THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
-WHEN I click on the Search for Books menu option
-THEN I am presented with an input field to search for books and a submit button
-WHEN I am not logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
-WHEN I click on the Login/Signup menu option
-THEN a modal appears on the screen with a toggle between the option to log in or sign up
-WHEN the toggle is set to Signup
-THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
-WHEN the toggle is set to Login
-THEN I am presented with two inputs for an email address and a password and login button
-WHEN I enter a valid email address and create a password and click on the signup button
-THEN my user account is created and I am logged in to the site
-WHEN I enter my account’s email address and password and click on the login button
-THEN I the modal closes and I am logged in to the site
-WHEN I am logged in to the site
-THEN the menu options change to Search for Books, an option to see my saved books, and Logout
-WHEN I am logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account
-WHEN I click on the Save button on a book
-THEN that book’s information is saved to my account
-WHEN I click on the option to see my saved books
-THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
-WHEN I click on the Remove button on a book
-THEN that book is deleted from my saved books list
-WHEN I click on the Logout button
-THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
+Book-Search-Engine
+
+<img width="1440" alt="Screen Shot 2021-09-05 at 8 28 06 PM" src="https://user-images.githubusercontent.com/81537925/132146292-a12166d8-47cd-494d-a543-e2d5edfc9546.png">
+
+
+Description
+This project I took and existing book search engine and added the ability for a user to create an account, login and logoff of the book search engine. The ability to search for a book and then save that book.
+
+Usage
+To use this Book Search Engine a user can first Sign Up to create an account. If the user already has an account, they can simply Login. Once an user is logged into their account, they can then type the name of a book in the search bar and then click Submit Search button. Once this is done then a list of books will appear. The user can then click the Save this Book button (the button is their, but does not save - still a work in progress). Then the user can go to to See Your Books and see the books they have saved.
+
+License
+License: MIT
+
+Contributing
+Verna Heyne
+
+Tests
+React
+
+Questions
+Email: vkheyne@gmail.com Github: Github Profile Link
