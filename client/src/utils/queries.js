@@ -1,4 +1,4 @@
-import {gql }from '@apollo/client';
+import { gql } from '@apollo/client';
 
 export const GET_ME = gql`
 
@@ -9,6 +9,7 @@ query {
         email
         savedBooks{
           _id
+          bookId
           authors
           description
           title
