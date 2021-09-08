@@ -1,0 +1,19 @@
+#book-search-engine
+
+Description
+This application allows the user to login, search for a favorite book and save that book. Once the user is done with the book then they can then delete the book.
+
+Usage
+The user can search, save and delete a book of their choice.
+
+License
+License: MIT
+
+Contributing
+Verna Heyne
+
+Tests
+Graphql, Apollo/Client, Apollo Server Express, Express
+
+Questions
+Email: vkheyne@gmail.com Github: Github Profile Link
